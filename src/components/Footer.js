@@ -15,9 +15,24 @@ export default function Footer() {
           display: "flex",
           justifyContent: "center",
         }}>
-        <FacebookIcon sx={{ marginRight: "2rem", color: "white" }} />
-        <TwitterIcon sx={{ marginRight: "2rem", color: "white" }} />
-        <InstagramIcon sx={{ color: "white" }} />
+        <a
+          href="https://www.facebook.com/apriman.fikri"
+          target="_blank"
+          rel="noopener noreferrer">
+          <FacebookIcon sx={{ marginRight: "2rem", color: "white" }} />
+        </a>
+        <a
+          href="https://www.twitter.com/xarfhkl"
+          target="_blank"
+          rel="noopener noreferrer">
+          <TwitterIcon sx={{ marginRight: "2rem", color: "white" }} />
+        </a>
+        <a
+          href="https://www.instagram.com/xfrhk"
+          target="_blank"
+          rel="noopener noreferrer">
+          <InstagramIcon sx={{ color: "white" }} />
+        </a>
       </Box>
       <Box
         sx={{
